@@ -1,50 +1,51 @@
-name: Feature request
-description: Suggest an improvement or new feature
-title: "[Feature] "
+name: "기능 요청 / Feature Request"
+description: "새 기능 또는 개선 아이디어를 제안합니다. / Suggest an improvement or new feature."
+title: "[기능 요청 / Feature] "
 body:
   - type: markdown
     attributes:
       value: |
+        SilverBell Choir에 아이디어를 제안해 주셔서 감사합니다.
         Thanks for sharing an idea with SilverBell Choir.
 
   - type: input
     id: project
     attributes:
-      label: Product or project name
-      description: Which project should this request apply to?
-      placeholder: Enter the related product or project name
+      label: "제품 또는 프로젝트명 / Product or project name"
+      description: "어떤 프로젝트에 적용할 요청인가요? / Which project should this request apply to?"
+      placeholder: "관련 제품 또는 프로젝트명을 입력해 주세요. / Enter the related product or project name"
     validations:
       required: true
 
   - type: textarea
     id: problem
     attributes:
-      label: Problem or need
-      description: What problem are you trying to solve?
-      placeholder: Describe the issue, limitation, or need
+      label: "문제 또는 필요성 / Problem or need"
+      description: "어떤 문제를 해결하려고 하나요? / What problem are you trying to solve?"
+      placeholder: "현재의 문제, 제한 또는 필요성을 설명해 주세요. / Describe the issue, limitation, or need"
     validations:
       required: true
 
   - type: textarea
     id: proposal
     attributes:
-      label: Proposed solution
-      description: Describe the feature or change you would like to see.
+      label: "제안 내용 / Proposed solution"
+      description: "원하는 기능 또는 변경 사항을 설명해 주세요. / Describe the feature or change you would like to see."
     validations:
       required: true
 
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives considered
-      description: Describe any alternative approaches or workarounds.
+      label: "검토한 대안 / Alternatives considered"
+      description: "다른 접근 방법이나 현재 사용 중인 우회 방법이 있다면 작성해 주세요. / Describe any alternative approaches or workarounds."
     validations:
       required: false
 
   - type: textarea
     id: use_case
     attributes:
-      label: Use case or impact
-      description: How would this help you or other users?
+      label: "사용 사례 또는 기대 효과 / Use case or impact"
+      description: "이 기능이 본인이나 다른 사용자에게 어떤 도움이 되나요? / How would this help you or other users?"
     validations:
       required: false
