@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: 지원 안내 / Support Guide
+  - name: 📘 지원 안내 / Support Guide
     url: https://github.com/Silverbell-Choir/silverbell-choir-support
     about: 공용 지원소 안내를 확인합니다 / View the shared support guide.
-  - name: 보안 정책 / Security Policy
+  - name: 🔒 보안 정책 / Security Policy
     url: https://github.com/Silverbell-Choir/silverbell-choir-support/blob/main/SECURITY.md
     about: 보안 관련 제보 전 정책을 확인합니다 / Read the security policy before reporting a security issue.
