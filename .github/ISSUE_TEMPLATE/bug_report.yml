@@ -1,26 +1,27 @@
-name: 버그 제보 (한국어)
-description: 기능 오류 또는 예상과 다른 동작을 제보합니다
+name: 버그 제보 / Bug Report
+description: 기능 오류 또는 예상과 다른 동작을 제보합니다 / Report a bug or unexpected behavior
 title: "[Bug] "
 body:
   - type: markdown
     attributes:
       value: |
-        버그를 제보해 주셔서 감사합니다. 비밀번호, 토큰, 개인키, 민감한 보안 정보는 작성하지 마세요.
+        버그를 제보해 주셔서 감사합니다. 비밀번호, 토큰, 개인키 또는 민감한 보안 정보는 작성하지 마세요.
+        Thank you for reporting a bug. Do not include passwords, tokens, private keys, or sensitive security details.
 
   - type: input
     id: project
     attributes:
-      label: 제품 또는 프로젝트명
-      description: 어떤 SilverBell Choir 프로젝트에서 발생한 문제인가요?
-      placeholder: 제품 또는 프로젝트명을 입력해 주세요
+      label: 제품 또는 프로젝트명 / Product or project name
+      description: 어떤 SilverBell Choir 프로젝트에서 발생한 문제인가요? / Which SilverBell Choir project does this affect?
+      placeholder: 제품 또는 프로젝트명을 입력해 주세요 / Enter the product or project name
     validations:
       required: true
 
   - type: input
     id: version
     attributes:
-      label: 버전 또는 빌드
-      description: 알고 있다면 영향을 받는 버전 또는 빌드를 입력해 주세요
+      label: 버전 또는 빌드 / Version or build
+      description: 알고 있다면 영향을 받는 버전 또는 빌드를 입력해 주세요 / Enter the affected version or build if known
       placeholder: 예: v1.0.0 / build 102
     validations:
       required: false
@@ -28,67 +29,67 @@ body:
   - type: dropdown
     id: environment_type
     attributes:
-      label: 실행 환경
+      label: 실행 환경 / Environment
       options:
-        - 데스크톱 앱
-        - 웹 앱
-        - 모바일 앱
-        - API / 백엔드
-        - 문서
-        - 기타 / 잘 모르겠음
+        - 데스크톱 앱 / Desktop app
+        - 웹 앱 / Web app
+        - 모바일 앱 / Mobile app
+        - API / 백엔드 / API / backend
+        - 문서 / Documentation
+        - 기타 / 잘 모르겠음 / Other / not sure
     validations:
       required: true
 
   - type: textarea
     id: summary
     attributes:
-      label: 문제 요약
-      description: 어떤 문제가 발생하는지 간단히 설명해 주세요
+      label: 문제 요약 / Bug summary
+      description: 어떤 문제가 발생하는지 간단히 설명해 주세요 / Briefly describe the problem
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: 재현 절차
-      description: 문제를 재현할 수 있는 순서를 적어 주세요
+      label: 재현 절차 / Steps to reproduce
+      description: 문제를 재현할 수 있는 순서를 적어 주세요 / List the steps needed to reproduce the issue
       placeholder: |
-        1. ...로 이동
-        2. ...를 클릭
-        3. 문제가 발생
+        1. ...로 이동 / Go to ...
+        2. ...를 클릭 / Click ...
+        3. 문제가 발생 / Observe the problem
     validations:
       required: true
 
   - type: textarea
     id: expected
     attributes:
-      label: 기대한 동작
-      placeholder: 정상적으로 어떤 동작을 기대했나요?
+      label: 기대한 동작 / Expected behavior
+      placeholder: 정상적으로 어떤 동작을 기대했나요? / What did you expect to happen?
     validations:
       required: true
 
   - type: textarea
     id: actual
     attributes:
-      label: 실제 동작
-      placeholder: 실제로 어떤 일이 발생했나요?
+      label: 실제 동작 / Actual behavior
+      placeholder: 실제로 어떤 일이 발생했나요? / What happened instead?
     validations:
       required: true
 
   - type: textarea
     id: logs
     attributes:
-      label: 로그, 스크린샷 또는 추가 정보
-      description: 민감하지 않은 로그, 스크린샷 또는 추가 정보가 있다면 첨부해 주세요
+      label: 로그, 스크린샷 또는 추가 정보 / Logs, screenshots, or extra context
+      description: 민감하지 않은 로그, 스크린샷 또는 추가 정보가 있다면 첨부해 주세요 / Add non-sensitive logs, screenshots, or other context if available
     validations:
       required: false
 
   - type: checkboxes
     id: checks
     attributes:
-      label: 확인 사항
+      label: 확인 사항 / Checklist
       options:
-        - label: 이 제보에 민감한 보안 정보가 포함되지 않았음을 확인했습니다.
+        - label: 민감한 보안 정보가 포함되지 않았음을 확인했습니다. / I confirmed this report does not contain sensitive security details.
           required: true
-        - label: 관련 제품 또는 프로젝트명을 작성했습니다.
+        - label: 관련 제품 또는 프로젝트명을 작성했습니다. / I included the related product or project name.
           required: true
