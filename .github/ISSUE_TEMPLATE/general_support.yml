@@ -1,5 +1,5 @@
-name: 일반 지원 / General Support
-description: 사용 문의 또는 일반적인 도움을 요청합니다 / Ask a question or request general help
+name: 💬 일반 지원 / General Support
+description: 사용 문의·설정·일반적인 도움 / Usage, setup, or general help
 title: "[Support] "
 body:
   - type: markdown
