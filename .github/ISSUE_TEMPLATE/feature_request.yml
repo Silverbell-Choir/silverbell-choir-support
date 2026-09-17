@@ -1,0 +1,50 @@
+name: Feature request
+description: Suggest an improvement or new feature
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea with SilverBell Choir.
+
+  - type: input
+    id: project
+    attributes:
+      label: Product or project name
+      description: Which project should this request apply to?
+      placeholder: Enter the related product or project name
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: What problem are you trying to solve?
+      placeholder: Describe the issue, limitation, or need
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the feature or change you would like to see.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe any alternative approaches or workarounds.
+    validations:
+      required: false
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case or impact
+      description: How would this help you or other users?
+    validations:
+      required: false
