@@ -1,5 +1,5 @@
-name: 기능 요청 / Feature Request
-description: 새로운 기능 또는 개선 아이디어를 제안합니다 / Suggest a new feature or improvement
+name: ✨ 기능 요청 / Feature Request
+description: 새로운 기능·개선 아이디어 / New features or improvements
 title: "[Feature] "
 body:
   - type: markdown
