@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: SilverBell Choir organization profile
+  - name: "SilverBell Choir 조직 프로필 / Organization Profile"
     url: https://github.com/Silverbell-Choir
-    about: View the public organization profile and shared guidance.
-  - name: Security policy
+    about: "조직 소개와 공용 안내를 확인합니다. / View the organization profile and shared guidance."
+  - name: "보안 정책 / Security Policy"
     url: https://github.com/Silverbell-Choir/silverbell-choir-support/blob/main/SECURITY.md
-    about: Read before opening a public security-related issue.
+    about: "보안 관련 공개 이슈를 만들기 전에 먼저 확인하세요. / Read this before opening a public security-related issue."
