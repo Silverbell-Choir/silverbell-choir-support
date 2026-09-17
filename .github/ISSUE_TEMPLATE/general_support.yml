@@ -1,33 +1,34 @@
-name: General support
-description: Ask a question or request general help
-title: "[Support] "
+name: "일반 지원 / General Support"
+description: "질문하거나 일반적인 도움을 요청합니다. / Ask a question or request general help."
+title: "[지원 / Support] "
 body:
   - type: markdown
     attributes:
       value: |
+        사용 문의나 일반적인 도움 요청은 이 양식을 이용해 주세요.
         Use this form for general questions or help requests.
 
   - type: input
     id: project
     attributes:
-      label: Product or project name
-      description: Which project is this about?
-      placeholder: Enter the related project name, or write General / Organization
+      label: "제품 또는 프로젝트명 / Product or project name"
+      description: "어떤 프로젝트와 관련된 문의인가요? / Which project is this about?"
+      placeholder: "관련 프로젝트명 또는 일반/조직 문의라고 작성해 주세요. / Enter the related project name, or write General / Organization"
     validations:
       required: true
 
   - type: textarea
     id: question
     attributes:
-      label: What do you need help with?
-      description: Describe your question or support need.
+      label: "도움이 필요한 내용 / What do you need help with?"
+      description: "질문 또는 필요한 지원 내용을 설명해 주세요. / Describe your question or support need."
     validations:
       required: true
 
   - type: textarea
     id: context
     attributes:
-      label: Additional context
-      description: Add any extra details that would help us understand the situation.
+      label: "추가 정보 / Additional context"
+      description: "상황을 이해하는 데 도움이 되는 추가 정보가 있다면 작성해 주세요. / Add any extra details that would help us understand the situation."
     validations:
       required: false
