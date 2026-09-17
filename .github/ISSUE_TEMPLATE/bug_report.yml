@@ -1,5 +1,5 @@
-name: 버그 제보 / Bug Report
-description: 기능 오류 또는 예상과 다른 동작을 제보합니다 / Report a bug or unexpected behavior
+name: 🐞 버그 제보 / Bug Report
+description: 기능 오류·예상과 다른 동작 / Errors or unexpected behavior
 title: "[Bug] "
 body:
   - type: markdown
