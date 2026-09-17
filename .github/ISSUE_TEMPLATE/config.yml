@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: SilverBell Choir organization profile
+    url: https://github.com/Silverbell-Choir
+    about: View the public organization profile and shared guidance.
+  - name: Security policy
+    url: https://github.com/Silverbell-Choir/silverbell-choir-support/blob/main/SECURITY.md
+    about: Read before opening a public security-related issue.
