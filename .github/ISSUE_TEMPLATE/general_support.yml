@@ -1,0 +1,33 @@
+name: General support
+description: Ask a question or request general help
+title: "[Support] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for general questions or help requests.
+
+  - type: input
+    id: project
+    attributes:
+      label: Product or project name
+      description: Which project is this about?
+      placeholder: Enter the related project name, or write General / Organization
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: What do you need help with?
+      description: Describe your question or support need.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any extra details that would help us understand the situation.
+    validations:
+      required: false
